@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gift Lu24 - GIF Optimizer</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Gift Lu24</h1>
+        <div class="upload-container">
+            <form id="uploadForm">
+                <div class="drop-zone" id="dropZone">
+                    <p>Arrastra tu GIF aquí o</p>
+                    <input type="file" id="fileInput" accept=".gif" hidden>
+                    <button type="button" id="selectFile">Seleccionar archivo</button>
+                </div>
+            </form>
+        </div>
+        <div id="preview" class="preview-container hidden">
+            <h2>Preview</h2>
+            <img id="gifPreview" alt="GIF Preview">
+            <div class="conversion-options">
+                <button id="optimizeGif">Optimizar GIF</button>
+                <button id="convertMp4">Convertir a MP4</button>
+                <button id="getHtml">Obtener HTML</button>
+            </div>
+        </div>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html>
